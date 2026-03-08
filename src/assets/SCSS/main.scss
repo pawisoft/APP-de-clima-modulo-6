@@ -1,0 +1,26 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #007bff, #00d4ff);
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.card {
+  transition: transform 0.3s ease;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.btn-primary {
+  border-radius: 25px;
+  padding: 8px 25px;
+}
